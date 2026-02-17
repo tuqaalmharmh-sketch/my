@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enable / Disable Select</title>
+
+    <script>
+        function disablecombobox() {
+            document.getElementById("selectfish").disabled = true;
+        }
+
+        function enablecombobox() {
+            document.getElementById("selectfish").disabled = false;
+        }
+    </script>
+
+</head>
+
+<body>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Page</title>
+
+    <!-- أهم سطر للـ RWD -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+        }
+
+        .box {
+            width: 100%;
+            background-color: rgb(255, 118, 182);
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* لما الشاشة تصير صغيرة (موبايل) */
+        @media (max-width: 600px) {
+            .box {
+                width: 100%;
+                background-color: lightblue;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+        مرحبا 👋 هذا موقع متجاوب
+    </div>
+
+</body>
+</html>
